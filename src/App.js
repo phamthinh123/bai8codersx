@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import FollowFriend from './components/FollowFriend'
+import RecommendedFriends from './components/RecommendedFriends'
 import pxt from './img/95656721_641193913277978_7891943316239941632_n.png';
 import vhl from './img/96017573_564874234442218_3389986844572647424_n.png';
 
@@ -30,11 +30,11 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      {
-      	this.friends.map((friend) =>
-      		<FollowFriend friend={friend} />
-      		)
-      }
+      
+      		<RecommendedFriends friends={this.friends} />
+      
+      		
+      
       </div>
       )
     

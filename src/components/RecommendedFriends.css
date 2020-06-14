@@ -1,0 +1,51 @@
+
+
+body{
+	background: #E4E6EB;
+display: flex;
+justify-content: center;
+align-items: center;
+	height: 100vh;
+	width: 100%;
+	color: #999999;
+		font-family: Roboto;
+		
+	
+
+
+}
+.RecommendedFriends{
+background: white;
+padding: 1rem 1.8rem;
+width: 100%;
+border: 1px solid rgba(0,0,0,.2);
+border-radius: 8px;
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+	
+	margin-bottom: 1rem;
+
+}
+
+.content1{
+	
+
+font-weight: 500;
+
+
+
+color: #999999;
+}
+.content2{
+
+
+font-weight: normal;
+font-size:1rem;
+
+/* identical to box height */
+
+
+color: #262626;
+}
